@@ -8,9 +8,9 @@ require('PHPmailer/PHPMailer.php');
 require('PHPmailer/SMTP.php');
 require('PHPmailer/Exception.php');
 
-$host = '';
-$username = '';
-$password = '';
+$host = 'mail.bishal.co.in';
+$username = 'digital@bishal.co.in';
+$password = 'Invalid1@';
 
 if (isset($_POST['send-mail'])) {
     $name = $_POST['name'];
